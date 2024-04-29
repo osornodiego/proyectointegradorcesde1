@@ -3,10 +3,57 @@
     margin: 0;
 }
 
-html{
 
+@font-face {
+    font-family:'Fuente_Simple';
+    src: url(fonts/Roboto-Light.ttf);
+}
+
+html{
+    font-family:'Fuente_Simple';
 }
 
 header{
     background-color: white;    
+}
+
+.filtros_checkboxes{
+    width: 200px;
+}
+
+.filtros_checkboxes input[type="checkbox"]{
+    border: 2px;
+}
+
+.filtros_checkboxes label{
+    display: block;
+}
+
+footer{
+    height: 300px;
+    color: white;
+    background-color: rgb(80,108,188);
+}
+
+.top_footer{
+    display: flex;
+}
+
+.top_footer .trabaja_con_nosotros{
+    flex: 50%;
+}
+
+.top_footer .otros_enlaces{
+    flex: 50%;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none; /* Elimina los bullets por defecto de ul*/
+    padding: 40px; /* Remove padding */
+  }
+
+ul li a{
+    color: white;
+    text-decoration: none;
 }
