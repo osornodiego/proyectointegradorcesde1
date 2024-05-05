@@ -36,7 +36,20 @@ header nav a:hover{
     text-decoration: underline;
 }
 
-header 
+.top_icons img{
+    width: 25px;
+}
+
+.top_icons img:hover{
+    transform:scale(1.5)
+}
+
+.top_icons{
+    display: flex;
+    gap: 40px;
+}
+
+/* header 
 .filtros_checkboxes{
     width: 200px;
 }
@@ -48,7 +61,7 @@ header
 .filtros_checkboxes label{
     display: block;
 }
-
+ */
 
 .contenedor_imagen img{
     width: 100%;
@@ -229,10 +242,11 @@ footer a:hover{
     display: flex;
     border-bottom:1px white solid ;;
     text-align: center;
+    padding: 10px;
 }
 
 .top_footer p{
-    margin: 20px 0px;
+    margin: 20px;
 }
 
 .trabaja_con_nosotros{
