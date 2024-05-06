@@ -84,7 +84,7 @@ header nav a:hover{
 
 .llamado_atencion{
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     position: absolute;
     justify-content: center;
     width: 20%;
@@ -94,6 +94,13 @@ header nav a:hover{
     text-align: center;
     color: white;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+.llamado_atencion img{
+    width: 50%;
+    position: absolute;
 }
 
 
@@ -101,10 +108,20 @@ header nav a:hover{
     margin-bottom: 60px; /* Agrega el espacio entre el texto del llamado a la atencion */
 }
 
-.empezar{
-    background-color: white;
-    color: black;
-    border-radius: 10px;
+.buttom_home{
+    width: 70%;
+    padding: 15px 18px;
+    justify-content: center;
+    align-items: center;
+    gap: 3px;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 1px solid var(#3A3845);
+}
+
+.buttom_home:hover{
+    background-color: #4d91ff;
+    color: white;
 }
 
 .categorias{
@@ -128,21 +145,21 @@ header nav a:hover{
     font-weight: 500;
 }
 
-.buttom_home{
-    display: flex;
-    width: 70%;
-    padding: 15px 18px;
-    justify-content: center;
-    align-items: center;
-    gap: 3px;
-    background-color: white;
-    font-weight: bold;
-    border: 1px solid var(#3A3845);
+
+.categorias img:hover{
+    transform: scale(1.1);
 }
 
 .promotions{
     padding: 0px 165px;
     margin: 50px;
+}
+
+.promotions a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    text-shadow: rgb(255, 123, 0) 1px 1px 1px;
 }
 
 
@@ -232,11 +249,11 @@ footer a{
     text-decoration: none;
 }
 
-footer a:hover{
+.trabaja_con_nosotros a:hover{
     color: black;
     background-color: white;
     text-decoration: none;
-}
+} 
 
 .top_footer{
     display: flex;
@@ -264,17 +281,63 @@ footer a:hover{
     text-align: center;
 }
 
-ul {
-    list-style-type: none; /* Elimina los bullets por defecto de ul*/
-    padding: 40px; /* Remove padding */
-  }
+.social_media{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
 
-ul li a{
-    color: white;
-    text-decoration: none;
+.social_media img{
+    width: 50px;
+    filter: invert(1);
+}
+
+.social_media img:hover{
+    transform: scale(1.5);
+    transition: 1s;
 }
 
 .bottom_footer p{
     margin-top: 20px;
     text-align: center;
 }
+
+
+/* **************************************** 
+
+CONTACTOS
+
+*******************************************/
+
+.conocenos{
+    margin: 30px;
+    text-align: center;
+}
+
+.conocenos h2{
+    margin-bottom: 20px;
+}
+
+.informacion_contacto{
+    margin: 30px;
+    text-align: center;
+}
+
+.informacion_contacto h3{
+    font-size: small;
+    margin-bottom: 5px;
+    margin-top: 15px;
+}
+
+.informacion_contacto p{
+    font-size: smaller;
+    color: #313ca3;
+}
+
+.map{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
