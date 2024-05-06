@@ -165,13 +165,12 @@ header nav a:hover{
 
 .fila1{
     display: flex;
-    flex: 50%;
     height: 348px;
     overflow: hidden;
 }
 
 .fila1 img{
-    flex: 50%;
+    flex: 50%
 }
 
 .texto_fila1{
@@ -220,7 +219,6 @@ header nav a:hover{
 }
 
 .fila3 img{
-    flex: 50%;
     flex: 50%;
     width: 100%;
 
@@ -341,3 +339,59 @@ CONTACTOS
     margin: 30px;
 }
 
+
+/* **************************************** 
+
+MEDICAMENTOS
+
+*******************************************/
+.contenedor_padre{
+    display: flex;
+    margin: 100px ;
+}
+
+.filtros{
+    margin: 0px 50px;
+    flex-direction: column;
+    flex: 20%
+}
+
+.medicamentos{
+    justify-content: space-between;
+    flex: 80%;
+    margin: 0px 50px;
+}
+
+.indicador_pagina{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.filtros p{
+    font-weight: bold;
+    margin: 15px;
+    padding-top: 8px;
+    border-top: 1px black solid;
+}
+
+.filtros input{
+    width: 18px;
+    height: 18px;
+    border: 1px solid var(--Gray-200, #CED1D9);
+    background: var(--Gray-White, #FFF);
+}
+
+.medicamentos p, h2, h3{
+    margin: 5px 0px;
+    font-size: smaller;
+}
+
+.medicamento1{
+    width: 255px;
+    text-align: justify;
+}
+
+.buttom_compras{
+    margin-top: 10px;
+    text-align: center;
+}
