@@ -456,6 +456,151 @@ MEDICAMENTOS
 }
 
 
+/****************DESCUENTOS****************/
+
+.contenedor_padre_decuentos{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 50px 100px;
+    height: 700px;
+    justify-content: center;
+    gap: 50px;
+    /* align-items: center; */
+}
+
+/* Imagen */
+
+.imagen_medicamento{
+    flex: 50%;
+    margin: auto;
+}
+
+.imagen_medicamento img{
+    width: 70%;
+}
+
+.imagen_medicamento img:hover{
+    transform: scale(1.5);
+    transition: 2s;
+}
+
+.descripcion_medicamento{
+    flex: 50%;
+}
+
+/* Descricion */
+
+.checked {
+    color: orange;
+  }
+
+.rating{
+    display: flex;
+}
+
+.rating p{
+    margin: 0px 15px;
+}
+
+.existencia{
+   color: rgb(16, 151, 79);
+}
+
+.precio{
+    display: flex;
+    gap: 20px;
+}
+
+.precio p{
+    font-size: xx-large;
+}
+
+.precio_real{
+    color: rgb(255, 27, 27);
+    text-decoration: line-through;
+}
+
+.presentacion_producto{
+    margin: 40px 0px;
+}
+
+.botones_fila1{
+    flex: 50%;
+    display: flex;
+    margin-top: 40px 0px;
+}
+
+
+
+.increment-box {
+    display: flex;
+    flex: 30%;
+  }
+  
+.increment-box button{
+    width: 50px;
+    background-color: white;
+    font-weight: 700;
+    font-size: larger;
+}
+  input[type=number] {
+    text-align: center;
+  }
+
+  .botones_fila1 .buttom_compras{
+    flex: 70%;
+    width: 100%;
+  }
+
+  .botones_fila2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .botones_fila2 .buttom_compras{
+    flex: 90%;
+    width: 100%;
+  }
+
+  .buttom_like{
+    flex: 10%;
+  }
+
+.share_icons{
+    display: flex;
+    gap: 15px;
+}
+
+.share_icons img:hover{
+    transform: scale(1.5);
+}
+
+  .otra_informacion_medicamento p{
+    width: 50%;
+    margin: 40px 0px;
+    border-top: 1px solid black;
+    padding: 10px;
+  }
+
+  .otra_informacion_medicamento p::before{
+    content: " +";
+  }
+
+ .articulos_similares_title{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-size: xx-large;
+ }
+
+  .articulos_similares{
+    margin: 100px;
+    gap: 30px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+
 /**************** MOBILE *****************/
 
 @media{
