@@ -315,6 +315,7 @@ CONTACTOS
 
 .conocenos h2{
     margin-bottom: 20px;
+    font-size: larger;
 }
 
 .informacion_contacto{
@@ -338,6 +339,64 @@ CONTACTOS
     justify-content: center;
     margin: 30px;
 }
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* width: 50%; */
+    margin-bottom: 20px;
+  } 
+
+.container input{
+    width: 400px;
+    
+}
+
+.form_fila1{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+
+}  
+
+  .nombre {
+    order: 1;
+    flex: 50%;
+    margin-bottom: 10px;
+    font-weight: 600;
+  }
+  .cuadro {
+    order: 2;
+    flex: 50%;
+    padding: 10px;
+    border: 1px solid var(--Neutral-colors-800, #3A3845);
+  }
+
+  .cuadro_mensaje .container input{
+    width: 100%;
+  }
+
+.boton_enviar{
+    display: flex;
+    justify-content: center;
+
+}
+
+.boton_enviar input{
+    padding: 20px;
+    background-color: rgb(80,108,188);
+    color: white;
+    font-weight: 500;
+    border: 1px solid black;
+    width: 50%;
+}
+
+.boton_enviar input:hover{
+    background-color: white;
+    color: black;
+}
+
 
 
 /* **************************************** 
@@ -394,4 +453,15 @@ MEDICAMENTOS
 .buttom_compras{
     margin-top: 10px;
     text-align: center;
+}
+
+
+/**************** MOBILE *****************/
+
+@media{
+
+
+
+
+
 }
