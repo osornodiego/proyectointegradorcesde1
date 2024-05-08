@@ -406,7 +406,7 @@ MEDICAMENTOS
 *******************************************/
 .contenedor_padre{
     display: flex;
-    margin: 100px ;
+    margin: 50px 100px ;
 }
 
 .filtros{
@@ -445,9 +445,21 @@ MEDICAMENTOS
     font-size: smaller;
 }
 
+.medicamentos_fila1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
 .medicamento1{
     width: 255px;
     text-align: justify;
+}
+
+.medicamento1 img:hover{
+    transform: scale(1.05);
+    transition: 1s;
 }
 
 .buttom_compras{
