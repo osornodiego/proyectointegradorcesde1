@@ -36,6 +36,23 @@ header nav a:hover{
     text-decoration: underline;
 }
 
+header button{
+    background-color: rgba(77, 109, 191, 0.70);
+    border: none;
+    width: 150px;
+    height: 30px;
+}
+
+header button a{
+    color: white;
+    font-size: large;
+    text-decoration: none;
+}
+
+header button:hover{
+    background-color: black;
+}
+
 .top_icons img{
     width: 25px;
 }
